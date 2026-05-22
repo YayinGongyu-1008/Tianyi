@@ -20,3 +20,6 @@ while guess != number:
             print(f"太棒了！你用了 {attempts} 次就猜对了！")
     except ValueError:
         print("请输入一个有效的数字哦！")
+
+
+

@@ -7,3 +7,6 @@ number = st.slider("选一个数字", 0, 100, 50)
 
 # 再用 number 来展示结果
 st.write(f"你选了 {number}，它的平方是 {number * number}")
+
+
+
