@@ -137,8 +137,8 @@ class Game:
         self.bullet_timer = 0
         self.wave = 1
         self.spawn_interval = 30  # 弹幕生成间隔（帧数）
-        self.font = pygame.font.SysFont(None, 36)
-        self.small_font = pygame.font.SysFont(None, 24)
+        self.font = pygame.font.Font(None, 36)
+        self.small_font = pygame.font.Font(None, 24)
     
     def spawn_bullets(self):
         self.bullet_timer += 1
